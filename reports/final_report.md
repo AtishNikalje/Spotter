@@ -123,6 +123,15 @@ HistGradientBoostingRegressor(
 
 Validation predictions: 12,000 rows saved to `validation_predictions.csv`
 
+How to regenerate this file and the December chart is documented in [`STEPS.md`](../STEPS.md). In short:
+
+```bash
+uv run python src/train.py
+uv run python score.py \
+  --predictions validation_predictions.csv \
+  --december-predictions data/december-chart-inputs.csv
+```
+
 ---
 
 ## 7. Fixed December Prediction Chart

@@ -24,6 +24,7 @@ __pycache__/
 # Local agent and assistant customization
 AGENTS.md
 .agents/
+.claude/
 .agent.md
 *.agent.md
 *.instructions.md

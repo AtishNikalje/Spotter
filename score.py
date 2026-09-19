@@ -141,7 +141,7 @@ def main() -> None:
     parser.add_argument(
         "--december-predictions",
         required=True,
-        help="Completed data/december_chart_inputs.csv",
+        help="Completed data/december-chart-inputs.csv",
     )
     parser.add_argument("--output-dir", default="scorer_results")
     args = parser.parse_args()

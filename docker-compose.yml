@@ -1,18 +1,21 @@
-version: '3.8'
-
 services:
-  jupyter:
+  dashboard:
     build: .
     volumes:
       - .:/app
+      - /app/.venv
     ports:
-      - "8888:8888"
-    command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=''
-    environment:
-      - JUPYTER_ENABLE_LAB=yes
+      - "8501:8501"
+    command: streamlit run dashboard.py --server.address=0.0.0.0 --server.port=8501
 
   runner:
     build: .
     volumes:
       - .:/app
-    command: python score.py --predictions validation_predictions.csv --december-predictions data/december_chart_inputs.csv
+      - /app/.venv
+    command:
+      [
+        "sh",
+        "-c",
+        "python src/train.py && python score.py --predictions validation_predictions.csv --december-predictions data/december-chart-inputs.csv",
+      ]
