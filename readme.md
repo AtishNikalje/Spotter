@@ -1,5 +1,32 @@
 # Freight Rate Prediction — Spotter
 
+<a href="https://spotter-mzjsx2wzeb2e9cjannm2te.streamlit.app" target="_blank" style="text-decoration: none;">
+  <div style="
+    display: inline-flex;
+    align-items: center;
+    background-color: #ff4b4b;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 4px 12px rgba(255,75,75,0.3);
+  ">
+    <span style="
+      height: 10px;
+      width: 10px;
+      background-color: #00ff66;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 12px;
+      box-shadow: 0 0 8px #00ff66;
+    "></span>
+    LAUNCH SPOTTER DASHBOARD →
+  </div>
+</a>
+
+## 
 > **Assessment brief:** [`freight-rate-ml-assessment.pdf`](freight-rate-ml-assessment.pdf)  
 > **Generation steps:** [`STEPS.md`](STEPS.md)  
 > **Full technical report:** [`reports/final_report.md`](reports/final_report.md) · [`reports/final_report.docx`](reports/final_report.docx)  
@@ -294,8 +321,7 @@ uv run python score.py \
 # Validated 31 fixed December predictions.
 # Created chart: scorer_results/candidate_december.png
 ```
-
----
+![December Predictions Chart](/scorer_results/candidate_december.png)
 
 ## Interactive Dashboard
 

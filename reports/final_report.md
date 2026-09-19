@@ -144,4 +144,5 @@ It shows predicted daily freight rates for the fixed Lexington → Fort Wayne, 3
 ---
 
 ## 8. Loom Walkthrough
-*[Insert 2–3 minute Loom link here]*
+
+https://www.loom.com/share/5abd9212e76e46aa83e28ab3c76044ac
