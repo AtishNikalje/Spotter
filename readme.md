@@ -59,7 +59,7 @@
 | 12,000-row submission | [`validation_predictions.csv`](validation_predictions.csv) | ✅ |
 | Technical report | [`reports/final_report.md`](reports/final_report.md) · [`reports/final_report.docx`](reports/final_report.docx) | ✅ |
 | December chart (official scorer) | [`scorer_results/candidate_december.png`](scorer_results/candidate_december.png) | ✅ |
-| Loom walkthrough (2–3 min) | 🔗 *[insert link]* | ⏳ |
+| Loom walkthrough (2–3 min) | 🔗*[https://www.loom.com/share/5abd9212e76e46aa83e28ab3c76044ac]*  | ✅ |
 
 ---
 
