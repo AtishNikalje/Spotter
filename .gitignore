@@ -1,0 +1,37 @@
+# macOS and editor artifacts
+.DS_Store
+.vscode/
+.idea/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local agent and assistant customization
+AGENTS.md
+.agents/
+.agent.md
+*.agent.md
+*.instructions.md
+*.prompt.md
+copilot-instructions.md
+.github/copilot-instructions.md
+
+# Local logs and temporary files
+*.log
+*.tmp
+.DS_Store
